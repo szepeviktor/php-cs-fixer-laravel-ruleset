@@ -1,58 +1,23 @@
 {
-  "name": "ergebnis/php-cs-fixer-config",
-  "description": "Provides a configuration factory and multiple rule sets for friendsofphp/php-cs-fixer.",
+  "name": "szepeviktor/php-cs-fixer-laravel-ruleset",
+  "description": "Provides the ruleset from Laravel Pint",
   "license": "MIT",
   "type": "library",
-  "authors": [
-    {
-      "name": "Andreas Möller",
-      "email": "am@localheinz.com"
-    }
-  ],
-  "homepage": "https://github.com/ergebnis/php-cs-fixer-config",
-  "support": {
-    "issues": "https://github.com/ergebnis/php-cs-fixer-config/issues",
-    "source": "https://github.com/ergebnis/php-cs-fixer-config"
-  },
   "require": {
     "php": "^7.4 || ^8.0",
     "ext-filter": "*",
     "friendsofphp/php-cs-fixer": "~3.8.0"
   },
-  "require-dev": {
-    "ergebnis/composer-normalize": "^2.28.1",
-    "ergebnis/license": "^1.2.0",
-    "fakerphp/faker": "^1.19.0",
-    "phpunit/phpunit": "^9.5.21",
-    "psalm/plugin-phpunit": "~0.17.0",
-    "symfony/filesystem": "^4.4.0 || ^5.0.0",
-    "vimeo/psalm": "^4.23"
-  },
   "autoload": {
     "psr-4": {
-      "Ergebnis\\PhpCsFixer\\Config\\": "src"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "Ergebnis\\PhpCsFixer\\Config\\Test\\": "test"
+      "SzpeViktor\\PhpCsFixer\\Laravel\\": "src"
     }
   },
   "config": {
-    "allow-plugins": {
-      "composer/package-versions-deprecated": true,
-      "ergebnis/composer-normalize": true
-    },
     "platform": {
       "php": "7.4.26"
     },
     "preferred-install": "dist",
     "sort-packages": true
-  },
-  "extra": {
-    "composer-normalize": {
-      "indent-size": 2,
-      "indent-style": "space"
-    }
   }
 }
