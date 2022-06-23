@@ -10,7 +10,7 @@
   },
   "autoload": {
     "psr-4": {
-      "SzpeViktor\\PhpCsFixer\\Laravel\\": "src"
+      "SzepeViktor\\PhpCsFixer\\Laravel\\": "src/"
     }
   },
   "config": {

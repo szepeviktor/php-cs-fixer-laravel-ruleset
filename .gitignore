@@ -1,3 +1,4 @@
-/.build/
-/.notes/
+/composer.lock
 /vendor/
+.php-cs-fixer.cache
+.php-cs-fixer.laravel.cache
