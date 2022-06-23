@@ -10,7 +10,7 @@ use SzepeViktor\PhpCsFixer\Laravel\RuleSet\Laravel;
 final class Factory
 {
     /**
-     * @param array<string, array|bool> $overrideRules
+     * @param array<string, array<mixed>|bool> $overrideRules
      */
     public static function fromLaravelRuleSet(array $overrideRules = []): Config
     {

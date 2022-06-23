@@ -10,6 +10,9 @@ final class Laravel
 
     protected const LOCAL_CACHE_PATH = '.php-cs-fixer.laravel.cache';
 
+    /**
+     * @return array<string, array<mixed>|bool>
+     */
     public function getRules(): array
     {
         if (! is_file(self::LOCAL_CACHE_PATH)) {
