@@ -1,4 +1,4 @@
-# php-cs-fixer-config
+# Laravel ruleset for PHP CS Fixer
 
 ## Installation
 
