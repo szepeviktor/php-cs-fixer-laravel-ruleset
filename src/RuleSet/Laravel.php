@@ -18,7 +18,7 @@ final class Laravel
         if (! is_file(self::LOCAL_CACHE_PATH)) {
             $pintFileContents = file_get_contents(self::PINT_URL);
             if ($pintFileContents === false) {
-                throw new \Exception('Failed to download ' . self::PINT_URL);
+                throw new \Exception('Failed to download '.self::PINT_URL);
             }
 
             file_put_contents(
